@@ -5,7 +5,7 @@ export default function CardComponent({item}) {
         <>
         <a href='/#'>
         <div className='game-card'>
-            <img src={item.imageUrl} width='200px'/>
+            <img src={item.imageUrl} width='200px' alt='game'/>
             <p>{item.name}</p>
         </div>
         </a>

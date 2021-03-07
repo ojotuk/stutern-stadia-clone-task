@@ -20,6 +20,10 @@
   font-weight: 600px;
   border-radius: 6px;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 .nav{
   width: 100%;

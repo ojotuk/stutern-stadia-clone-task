@@ -16,21 +16,21 @@ export default function Nav(props) {
       </div>
       <div className='container'>
       <div className="nav-two">
-            <img src="https://www.gstatic.com/stadia/gamers/landing_pages/cobranded/6f147f371c174dc/static/images/icons/stadia-logo-color.svg" />
+            <img alt='brand' src="https://www.gstatic.com/stadia/gamers/landing_pages/cobranded/6f147f371c174dc/static/images/icons/stadia-logo-color.svg" />
             <ul className="nav-two-ul">
               <li className='mr-50 dark'>
-                <a>About Stadia</a>
+                <a href='/#'>About Stadia</a>
               </li>
               <li>
-                <a>Games</a>
+                <a href='/#'>Games</a>
               </li>
             </ul>
             <ul className="nav-two-ul">
               <li className='mr-30'>
-                <a>Sign in</a>
+                <a href='/#'>Sign in</a>
               </li>
               <li className='btn'>
-                <a>Try Now</a>
+                <a href='/#'>Try Now</a>
               </li>
             </ul>
           </div>
